@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b100e6da.chunk.css",
+    "main.js": "/static/js/main.1dcd74c6.chunk.js",
+    "main.js.map": "/static/js/main.1dcd74c6.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.13123234.js",
+    "runtime-main.js.map": "/static/js/runtime-main.13123234.js.map",
+    "static/js/2.88a1ac9f.chunk.js": "/static/js/2.88a1ac9f.chunk.js",
+    "static/js/2.88a1ac9f.chunk.js.map": "/static/js/2.88a1ac9f.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c0491a40a9b66fb1ad013d3e35c30bd1.js": "/precache-manifest.c0491a40a9b66fb1ad013d3e35c30bd1.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.b100e6da.chunk.css.map": "/static/css/main.b100e6da.chunk.css.map",
+    "static/media/agujeronegro.png": "/static/media/agujeronegro.55141710.png",
+    "static/media/jupiter.png": "/static/media/jupiter.6b7c6610.png",
+    "static/media/luna.png": "/static/media/luna.ab0189e1.png",
+    "static/media/marte.png": "/static/media/marte.5427a5dd.png",
+    "static/media/saturno.png": "/static/media/saturno.c095a7aa.png"
+  }
+}
