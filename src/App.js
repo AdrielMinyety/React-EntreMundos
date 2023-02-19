@@ -44,11 +44,11 @@ class App extends Component {
     // si no está calculando mostrar mensaje.
     // if is not calculing show message.
     if(pesoTotal === "" && !cargando) {
-      componente = "Agrega los datos para hacer el viaje a otros mundos!";
+      componente = "Add data to travel to others worlds!";
     } else if (cargando) {
       // si está calculando el peso, cargar componente "spinner"
       // if is calculing the weight, load component "spinner"
-      console.log("cargando...")
+      console.log("Loading...")
       componente = <Spinner />;
     } else {
       // si hay resultados, cargar componente con resultados.
@@ -62,7 +62,7 @@ class App extends Component {
 
     return (
       <div className="universo py-5">
-        <h1 className="text-light text-center mb-5">Tu peso en otros Planetas!</h1>
+        <h1 className="text-light text-center mb-5">Your weight in other Planets!</h1>
         <Formulario 
           datosPeso={this.datosPeso}
         />
