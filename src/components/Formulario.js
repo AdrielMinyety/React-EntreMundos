@@ -50,33 +50,33 @@ class Formulario extends Component {
                         <input
                             onChange={ this.actualizarState }
                             name="libras" 
-                            placeholder="Tu peso"
+                            placeholder="Your weight"
                             type="number"
                             className="form-control font-weight-bold"
                         />
                     </div>
                     <div className="form-group col-6">
                         <select name="unidadDePeso" onChange={ this.actualizarState } className="form-control font-weight-bold">
-                            <option value="lb">Libras</option>
-                            <option value="kg">Kilogramos</option>
+                            <option value="lb">Pounds - Libras</option>
+                            <option value="kg">Kg - Kilogramos</option>
                         </select>
                     </div>
                 </div>
                 <div className="form-group">
                     <select name="planeta" onChange={ this.actualizarState } className="form-control font-weight-bold">
-                        <option value="">Dónde te quieres pesar?</option>
-                        <option value="luna">En la luna</option>
-                        <option value="marte">En Marte</option>
-                        <option value="saturno">En Saturno</option>
-                        <option value="jupiter">En Júpiter</option>
-                        <option value="agujero">En un Agujero Negro - Bonus</option>
+                        <option value="">Where would you like to start?</option>
+                        <option value="luna">The moon</option>
+                        <option value="marte">Mars</option>
+                        <option value="saturno">Saturn</option>
+                        <option value="jupiter">Jupiter</option>
+                        <option value="agujero">Black Hole - Bonus</option>
                     </select>
                 </div>
                 <input
                     disabled={ this.habilitarSubmit() }
                     type="submit"
                     className="btn btn-primary btn-block px-5 "
-                    value="Calcular!"
+                    value="Travel and calculate!"
                 />
             </form>
         );
