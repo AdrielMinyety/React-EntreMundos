@@ -39,7 +39,7 @@ const Resultado = (props) => {
         <div className="card bg-light w-75 mx-auto p-2 my-5">
           <img className="card-img-top mx-auto" src={"./" + image} alt="cuerpo celeste .png" style={{maxWidth: 20 + 'em'}} />
           <div className="card-body bg-white rounded mt-2">
-            <p className="card-text text-dark">Aquí tu peso es <span className="font-weight-bold text-primary">{ props.pesoTotal }</span> <span className="font-weight-bold">{props.unidadDePeso}(s)</span>.</p>
+            <p className="card-text text-dark">Your weight is <span className="font-weight-bold text-primary">{ Number(props.pesoTotal).toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,") }</span> <span className="font-weight-bold">{props.unidadDePeso}(s)</span>.</p>
           </div>
         </div>
     )
